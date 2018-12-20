@@ -48,7 +48,7 @@ def run_test_sum_sequence():
     print('--------------------------------------------------')
 
     # -------------------------------------------------------------------------
-    # TODO: 2. READ the COMMENTS and CODE in this function,
+    # DONE: 2. READ the COMMENTS and CODE in this function,
     #  asking questions as needed.
     #
     #   When you believe that you understand:
@@ -231,6 +231,9 @@ def sum_sequence(sequence):
     #      -- The TESTING code above does use   built_ins.sum
     #         as an ORACLE in TESTING this function, however.
     # -------------------------------------------------------------------------
+    sequence6 = []
+    for _ in range(10000):
+        sequence6.append(random.randrange(-10, 11))
 
 
 def run_test_count_items_bigger_than():
